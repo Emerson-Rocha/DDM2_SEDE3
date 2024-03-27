@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/css.css" rel="stylesheet">
+<title>Exercício Dois1</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="text-center">
+    <h2>Exercício Dois</h2>
+  </div>
+
+  <br>
+  <div class="text-center">
+  <button class="btn btn-primary"  onclick="exibirAlerta()">Clique Aqui</button>
+  </div>
+</div>
+
+<script>
+function exibirAlerta() {
+  alert("Olá tudo bem, este é um alerta!");
+}
+</script>
+
+<footer class="fixed-bottom text-center">
+  <div class="container">
+    Marcos Santucci e Raíssa Nabuco - 3ºIPI
+  </div>
+</footer>
+
+</body>
+</html>
