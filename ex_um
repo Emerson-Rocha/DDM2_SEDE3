@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alerta JavaScript - EX UM</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<script>
+window.onload = function() {
+    alert("Bem-vindo ao nosso site! Feito por Raissa e Marcos - 3ºIPI");
+};
+</script>
+
+<br>
+<div class="alert alert-success rounded" role="alert">
+  O alerta foi feito efetuado com sucesso ao entrar na página.
+</div>
+
+<footer class="fixed-bottom bg-light text-center">
+  <div class="container">
+    Marcos Santucci e Raíssa Nabuco - 3ºIPI
+  </div>
+</footer>
+
+</body>
+</html>
